@@ -42,10 +42,10 @@ data_files_names = (os.listdir(path + "/data_to_analyse"))
 
 temp_filename_breakpoint = independent_var_name.split("(")[1][0].lower()
 
-print(temp_filename_breakpoint)
+
 
 sorted_files = sorted(data_files_names, key=lambda x: float(x.split(temp_filename_breakpoint)[0][:]))
-print("hi")
+
 
 
 data_files = []
@@ -91,7 +91,7 @@ for i in range(n_reactions_to_graph):
 
     all_stabilised_values.append(stabilised_values_per_reaction)
 
-print(extracted_data)
+
 
 
 # make approprate graph titles

@@ -189,6 +189,43 @@ for column in df.columns:
         y_exp = None
 
 
+   # -------------------
+    # Generalised (peak) model fit – robust version
+    # -------------------
+    try:
+        # 1. Scale y to avoid gigantic A values
+        y_max = np.max(y)
+        if y_max == 0:
+            raise ValueError("All y values are zero")
+        y_scaled = y / y_max
+
+        # 2. Intelligent initial guess for B from data peak location
+        idx_peak = np.argmax(y)
+        x_peak_guess = x[idx_peak]
+        alpha_guess = alpha if not np.isnan(alpha) else 1.0
+        B0 = alpha_guess / x_peak_guess if x_peak_guess > 0 else 0.05
+        B0 = max(B0, 1e-6)   # ensure positive
+
+        # Scale A initial guess accordingly
+        A_power_scaled = A_power / y_max
+        p0 = [A_power_scaled, alpha_guess, B0]
+
+        # 3. Fit using Levenberg‑Marquardt (no bounds, more stable)
+        popt_scaled, pcov = curve_fit(
+            generalized_model,   # original function works because y is scaled
+            x, y_scaled,
+            p0=p0,
+            method='lm',         # <<< key change
+            maxfev=20000
+        )
+
+        A_scaled, alpha_gen, B_gen = popt_scaled
+        A_gen = A_scaled * y_max
+        y_gen = generalized_model(x, A_gen, alpha_gen, B_gen)
+
+        # 4. Compute R²
+        ss_tot = np.sum((y - np.mean(y))**2)
+        r2_gen = 1 - np.sum((y - y_gen)**2) / ss_tot
 
     except Exception as e:
         # Detailed error message helps diagnose remaining issues
@@ -224,6 +261,9 @@ for column in df.columns:
         plt.plot(x, y_exp, linestyle="--",
              label=f"Exp (α={alpha_exp:.2f}, R²={r2_exp:.3f})")
         
+    if generalised and y_gen is not None:
+        plt.plot(x, y_gen, linestyle="--",
+                label=f"Gen (α={alpha_gen:.2f}, R²={r2_gen:.3f})")
 
     plt.xlabel("Pressure (mTorr)")
     plt.ylabel("Flux")
@@ -255,6 +295,10 @@ for column in df.columns:
         "Exp alpha": alpha_exp,
         "Exp gamma": gamma_exp,
         "Exp R^2": r2_exp,
+        "Gen A": A_gen,
+        "Gen alpha": alpha_gen,
+        "Gen B": B_gen,
+        "Gen R^2": r2_gen
         })
 
 # -------------------
