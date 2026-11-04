@@ -1,0 +1,743 @@
+Reactions that are repeated
+
+011:         e + O2 -> e + O + O_1d   ->   012: e + O2 -> e + O + O_1d
+
+013:               e + O2 -> e + O2   ->   014: e + O2 -> e + O2
+                                      ->   015: e + O2 -> e + O2
+                                      ->   016: e + O2 -> e + O2
+                                      ->   017: e + O2 -> e + O2
+                                      ->   018: e + O2 -> e + O2
+                                      ->   019: e + O2 -> e + O2
+                                      ->   499: e + O2 -> e + O2
+
+021:          e + O2 -> e + O2_b1Su   ->   022: e + O2 -> e + O2_b1Su
+                                      ->   023: e + O2 -> e + O2_b1Su
+
+027:    e + O2_a1Ag -> e + O + O_1d   ->   028: e + O2_a1Ag -> e + O + O_1d
+
+030:     e + O2_a1Ag -> e + O2_a1Ag   ->   031: e + O2_a1Ag -> e + O2_a1Ag
+                                      ->   032: e + O2_a1Ag -> e + O2_a1Ag
+                                      ->   033: e + O2_a1Ag -> e + O2_a1Ag
+                                      ->   034: e + O2_a1Ag -> e + O2_a1Ag
+                                      ->   035: e + O2_a1Ag -> e + O2_a1Ag
+                                      ->   036: e + O2_a1Ag -> e + O2_a1Ag
+                                      ->   500: e + O2_a1Ag -> e + O2_a1Ag
+
+037:     e + O2_a1Ag -> e + O2_b1Su   ->   038: e + O2_a1Ag -> e + O2_b1Su
+                                      ->   039: e + O2_a1Ag -> e + O2_b1Su
+
+044:    e + O2_b1Su -> e + O + O_1d   ->   045: e + O2_b1Su -> e + O + O_1d
+
+048:     e + O2_b1Su -> e + O2_b1Su   ->   049: e + O2_b1Su -> e + O2_b1Su
+                                      ->   050: e + O2_b1Su -> e + O2_b1Su
+                                      ->   051: e + O2_b1Su -> e + O2_b1Su
+                                      ->   052: e + O2_b1Su -> e + O2_b1Su
+                                      ->   053: e + O2_b1Su -> e + O2_b1Su
+                                      ->   054: e + O2_b1Su -> e + O2_b1Su
+                                      ->   055: e + O2_b1Su -> e + O2_b1Su
+                                      ->   056: e + O2_b1Su -> e + O2_b1Su
+                                      ->   501: e + O2_b1Su -> e + O2_b1Su
+
+256:             e + Ar -> Ar_m + e   ->   257: e + Ar -> Ar_m + e
+
+258:             e + Ar -> Ar_r + e   ->   259: e + Ar -> Ar_r + e
+
+277:              e + O -> e + O_5s   ->   297: e + O -> e + O_5s
+
+280:              e + O -> e + O_3p   ->   281: e + O -> e + O_3p
+
+284:           e + O_1d -> e + O_3p   ->   285: e + O_1d -> e + O_3p
+
+286:           e + O_1s -> e + O_3p   ->   287: e + O_1s -> e + O_3p
+
+298:               e + O2 -> e + 2O   ->   301: e + O2 -> e + 2O
+
+299:          e + O2_a1Ag -> e + 2O   ->   302: e + O2_a1Ag -> e + 2O
+
+300:          e + O2_b1Su -> e + 2O   ->   303: e + O2_b1Su -> e + 2O
+
+385:               O + O+ -> O + O+   ->   399: O + O+  -> O + O+
+
+386:         O_1s + O+ -> O_1s + O+   ->   409: O_1s + O+  -> O_1s + O+
+
+387:         O_1d + O+ -> O_1d + O+   ->   404: O_1d + O+  -> O_1d + O+
+
+388:         O_3s + O+ -> O_3s + O+   ->   414: O_3s + O+  -> O_3s + O+
+
+389:         O_5s + O+ -> O_5s + O+   ->   419: O_5s + O+  -> O_5s + O+
+
+390:         O_3p + O+ -> O_3p + O+   ->   424: O_3p + O+  -> O_3p + O+
+
+391:         O_5p + O+ -> O_5p + O+   ->   429: O_5p + O+  -> O_5p + O+
+
+392:           O2 + O2+ -> O2 + O2+   ->   435: O2 + O2+ -> O2 + O2+
+
+393: O2_a1Ag + O2+ -> O2_a1Ag + O2+   ->   440: O2_a1Ag + O2+ -> O2_a1Ag + O2+
+
+394: O2_b1Su + O2+ -> O2_b1Su + O2+   ->   445: O2_b1Su + O2+ -> O2_b1Su + O2+
+
+395:           O3 + O3+ -> O3 + O3+   ->   451: O3 + O3+ -> O3 + O3+
+
+396:       O3_v + O3+ -> O3_v + O3+   ->   456: O3_v + O3+ -> O3_v + O3+
+
+397:           O4 + O4+ -> O4 + O4+   ->   462: O4 + O4+ -> O4 + O4+
+
+398:           Ar + Ar+ -> Ar + Ar+   ->   468: Ar + Ar+ -> Ar + Ar+
+
+545:                     Ar_r -> Ar   ->   571: Ar_r -> Ar
+
+546:                    Ar_4p -> Ar   ->   572: Ar_4p -> Ar
+
+550:                      O_5s -> O   ->   551: O_5s -> O
+                                      ->   565: O_5s -> O
+
+552:                      O_3s -> O   ->   553: O_3s -> O
+                                      ->   554: O_3s -> O
+                                      ->   564: O_3s -> O
+
+555:                   O_5p -> O_5s   ->   556: O_5p -> O_5s
+                                      ->   557: O_5p -> O_5s
+
+558:                   O_3p -> O_3s   ->   559: O_3p -> O_3s
+                                      ->   560: O_3p -> O_3s
+System parameters
+ - Area:                      0.027057 m2
+ - Volume:                 0.000331831 m3
+ - Length:                         0.1 m
+ - Radius:                      0.0325 m
+ - h factor: Thorsteinsson
+ - Potential solving method: Flux balance (electrons + negative ions)
+ - Driving frequency:                    0 MHz
+                                         0 rad/s
+ - Driving power:                   500.00 W
+ - T_e min.:                             1 eV
+ - T_e max.:                             4 eV
+ - Power shape:            constant
+ - Power duty ratio:                     1 
+ - Power start time:                     0 s
+ - Total neutral pressure:         66.6612 Pa
+ - Plasma potential guess:             100 V
+ - Simulation time:                      1 s
+ - Initial dt:                       1e-12 s
+ - Simulation folder:      Pressure tests/500mTorr/
+ - Log file:               Pressure tests/500mTorr/GM_run_20260420112105.log
+
+Loaded species
+           Name         Species       Mass [kg]      Charge [C]      n-eq.      T-eq.         WL    P-input    Dens0 [m^-3]      Temp0 [eV]      Press [Pa]    Opposite ion
+            O2+              O2     5.31372e-26     1.60218e-19        Yes         No        Yes           1e+14       0.0689387     1.10452e-06
+           Ar_r         nothing     6.64216e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+              e               e     9.10938e-31    -1.60218e-19        Yes        Yes        Yes           1e+12             1.5     2.40326e-07
+             O4         nothing     1.06274e-25     0.00000e+00        Yes         No        Yes               0       0.0689387               0
+        O2_a1Ag         nothing     5.31372e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+            O2-              O2     5.31372e-26    -1.60218e-19        Yes         No        Yes               0       0.0689387               0
+           O_1d         nothing     2.65686e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+            O3-              O3     7.97059e-26    -1.60218e-19        Yes         No        Yes               0       0.0689387               0
+              O         nothing     2.65686e-26     0.00000e+00        Yes         No        Yes               0       0.0689387               0
+           Ar_m         nothing     6.64216e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+        O2_b1Su         nothing     5.31372e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+             O3         nothing     7.97059e-26     0.00000e+00        Yes         No        Yes               0       0.0689387               0
+           O_1s         nothing     2.65686e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+            O3+              O3     7.97059e-26     1.60218e-19        Yes         No        Yes               0       0.0689387               0
+            O4-              O4     1.06274e-25    -1.60218e-19        Yes         No        Yes               0       0.0689387               0
+             O2         nothing     5.31372e-26     0.00000e+00        Yes         No        Yes     6.03531e+21       0.0689387         66.6612
+           O_3p         nothing     2.65686e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+            O4+              O4     1.06274e-25     1.60218e-19        Yes         No        Yes               0       0.0689387               0
+             O+               O     2.65686e-26     1.60218e-19        Yes         No        Yes               0       0.0689387               0
+           O_5s         nothing     2.65686e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+           O3_v         nothing     7.97059e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+             Ar         nothing     6.64216e-26     0.00000e+00         No         No        Yes               0       0.0689387               0
+             O-               O     2.65686e-26    -1.60218e-19        Yes         No        Yes               0       0.0689387               0
+           O_5p         nothing     2.65686e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+          Ar_4p         nothing     6.64216e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+            Ar+              Ar     6.64216e-26     1.60218e-19        Yes         No        Yes               0       0.0689387               0
+           O_3s         nothing     2.65686e-26     0.00000e+00        Yes         No         No               0       0.0689387               0
+
+Loaded reactions
+ ID - description                       Reaction E-threshold [eV]         Neutral                Species balance       Reactants
+         1nothing               e + O -> 2e + O+           13.60               O                O+:1, e:1, O:-1            e, O
+         2nothing              e + O -> e + O_1d            1.96               O              e:0, O_1d:1, O:-1            e, O
+         3nothing              e + O -> e + O_1s            4.18               O              e:0, O_1s:1, O:-1            e, O
+         4nothing            e + O_1d -> 2e + O+           11.65            O_1d             O+:1, e:1, O_1d:-1         e, O_1d
+         5nothing              e + O_1d -> e + O           -1.96            O_1d              e:0, O_1d:-1, O:1         e, O_1d
+         6nothing            e + O_1s -> 2e + O+            9.43            O_1s             O+:1, e:1, O_1s:-1         e, O_1s
+         7nothing              e + O_1s -> e + O           -4.18            O_1s              e:0, O_1s:-1, O:1         e, O_1s
+         8nothing               e + O- -> 2e + O            3.44         nothing                e:1, O-:-1, O:1           e, O-
+         9nothing          e + O2 -> 2e + O + O+           18.73              O2          O:1, O+:1, e:1, O2:-1           e, O2
+        10nothing             e + O2 -> 2e + O2+           12.06              O2              O2+:1, e:1, O2:-1           e, O2
+        11nothing         e + O2 -> e + O + O_1d            8.50              O2        O:1, e:0, O_1d:1, O2:-1           e, O2
+        12nothing         e + O2 -> e + O + O_1d            9.97              O2        O:1, e:0, O_1d:1, O2:-1           e, O2
+        13nothing               e + O2 -> e + O2            0.02              O2                      e:0, O2:0           e, O2
+        14nothing               e + O2 -> e + O2            0.19              O2                      e:0, O2:0           e, O2
+        15nothing               e + O2 -> e + O2            0.19              O2                      e:0, O2:0           e, O2
+        16nothing               e + O2 -> e + O2            0.57              O2                      e:0, O2:0           e, O2
+        17nothing               e + O2 -> e + O2            0.38              O2                      e:0, O2:0           e, O2
+        18nothing               e + O2 -> e + O2            0.38              O2                      e:0, O2:0           e, O2
+        19nothing               e + O2 -> e + O2            0.75              O2                      e:0, O2:0           e, O2
+        20nothing          e + O2 -> e + O2_a1Ag            0.98              O2          e:0, O2_a1Ag:1, O2:-1           e, O2
+        21nothing          e + O2 -> e + O2_b1Su            1.63              O2          O2_b1Su:1, e:0, O2:-1           e, O2
+        22nothing          e + O2 -> e + O2_b1Su            4.50              O2          O2_b1Su:1, e:0, O2:-1           e, O2
+        23nothing          e + O2 -> e + O2_b1Su            6.00              O2          O2_b1Su:1, e:0, O2:-1           e, O2
+        24nothing               e + O2 -> O + O-            0.00              O2         O:1, e:-1, O-:1, O2:-1           e, O2
+        25nothing     e + O2_a1Ag -> 2e + O + O+           17.75         O2_a1Ag     O+:1, e:1, O2_a1Ag:-1, O:1      e, O2_a1Ag
+        26nothing        e + O2_a1Ag -> 2e + O2+           11.08         O2_a1Ag         e:1, O2_a1Ag:-1, O2+:1      e, O2_a1Ag
+        27nothing    e + O2_a1Ag -> e + O + O_1d            7.52         O2_a1Ag   e:0, O2_a1Ag:-1, O_1d:1, O:1      e, O2_a1Ag
+        28nothing    e + O2_a1Ag -> e + O + O_1d            9.00         O2_a1Ag   e:0, O2_a1Ag:-1, O_1d:1, O:1      e, O2_a1Ag
+        29nothing          e + O2_a1Ag -> e + O2           -0.98         O2_a1Ag          e:0, O2_a1Ag:-1, O2:1      e, O2_a1Ag
+        30nothing     e + O2_a1Ag -> e + O2_a1Ag            0.02         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        31nothing     e + O2_a1Ag -> e + O2_a1Ag            0.19         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        32nothing     e + O2_a1Ag -> e + O2_a1Ag            0.19         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        33nothing     e + O2_a1Ag -> e + O2_a1Ag            0.38         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        34nothing     e + O2_a1Ag -> e + O2_a1Ag            0.38         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        35nothing     e + O2_a1Ag -> e + O2_a1Ag            0.57         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        36nothing     e + O2_a1Ag -> e + O2_a1Ag            0.75         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+        37nothing     e + O2_a1Ag -> e + O2_b1Su            0.66         O2_a1Ag     O2_b1Su:1, e:0, O2_a1Ag:-1      e, O2_a1Ag
+        38nothing     e + O2_a1Ag -> e + O2_b1Su            3.52         O2_a1Ag     O2_b1Su:1, e:0, O2_a1Ag:-1      e, O2_a1Ag
+        39nothing     e + O2_a1Ag -> e + O2_b1Su            5.02         O2_a1Ag     O2_b1Su:1, e:0, O2_a1Ag:-1      e, O2_a1Ag
+        40nothing          e + O2_a1Ag -> O + O-            3.00         O2_a1Ag    e:-1, O-:1, O2_a1Ag:-1, O:1      e, O2_a1Ag
+        41nothing       e + O2_a1Ag -> O_1d + O-            3.00         O2_a1Ag e:-1, O-:1, O2_a1Ag:-1, O_1d:1      e, O2_a1Ag
+        42nothing     e + O2_b1Su -> 2e + O + O+           17.10         O2_b1Su     O+:1, O2_b1Su:-1, e:1, O:1      e, O2_b1Su
+        43nothing        e + O2_b1Su -> 2e + O2+           10.43         O2_b1Su         O2_b1Su:-1, e:1, O2+:1      e, O2_b1Su
+        44nothing    e + O2_b1Su -> e + O + O_1d            6.87         O2_b1Su   O2_b1Su:-1, e:0, O_1d:1, O:1      e, O2_b1Su
+        45nothing    e + O2_b1Su -> e + O + O_1d            8.34         O2_b1Su   O2_b1Su:-1, e:0, O_1d:1, O:1      e, O2_b1Su
+        46nothing          e + O2_b1Su -> e + O2           -1.63         O2_b1Su          O2_b1Su:-1, e:0, O2:1      e, O2_b1Su
+        47nothing     e + O2_b1Su -> e + O2_a1Ag           -0.66         O2_b1Su     O2_b1Su:-1, e:0, O2_a1Ag:1      e, O2_b1Su
+        48nothing     e + O2_b1Su -> e + O2_b1Su            0.02         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        49nothing     e + O2_b1Su -> e + O2_b1Su            0.19         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        50nothing     e + O2_b1Su -> e + O2_b1Su            0.19         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        51nothing     e + O2_b1Su -> e + O2_b1Su            0.38         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        52nothing     e + O2_b1Su -> e + O2_b1Su            0.38         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        53nothing     e + O2_b1Su -> e + O2_b1Su            0.57         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        54nothing     e + O2_b1Su -> e + O2_b1Su            0.75         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        55nothing     e + O2_b1Su -> e + O2_b1Su            2.87         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        56nothing     e + O2_b1Su -> e + O2_b1Su            4.37         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+        57nothing          e + O2_b1Su -> O + O-            0.00         O2_b1Su    O2_b1Su:-1, e:-1, O-:1, O:1      e, O2_b1Su
+        58nothing             e + O2- -> 2e + O2            4.68         nothing              e:1, O2-:-1, O2:1          e, O2-
+        59nothing           e + O3 -> e + O + O2            2.60              O3          O2:1, O3:-1, e:0, O:1           e, O3
+        60nothing   e + O3 -> e + O_1d + O2_a1Ag            5.72              O3  O3:-1, e:0, O2_a1Ag:1, O_1d:1           e, O3
+        61nothing              e + O3 -> O + O2-            0.00              O3        O3:-1, e:-1, O2-:1, O:1           e, O3
+        62nothing              e + O3 -> O- + O2            0.00              O3        O3:-1, e:-1, O-:1, O2:1           e, O3
+        63nothing             e + O3 -> 2e + O3+           12.43              O3              O3:-1, e:1, O3+:1           e, O3
+        64nothing                  e + O3+ -> 3O           -6.27         nothing              e:-1, O3+:-1, O:3          e, O3+
+        65nothing           e + O3+ -> 2O + O_1d           -4.30         nothing      e:-1, O3+:-1, O_1d:1, O:2          e, O3+
+        66nothing           e + O3+ -> O + 2O_1d           -2.33         nothing      e:-1, O3+:-1, O_1d:2, O:1          e, O3+
+        67nothing             e + O3- -> 2e + O3            2.10         nothing              O3:1, e:1, O3-:-1          e, O3-
+        68nothing         e + O3- -> 2e + O + O2            3.20         nothing         O2:1, e:1, O3-:-1, O:1          e, O3-
+        69nothing             e + O3- -> 2e + 3O            8.40         nothing               e:1, O3-:-1, O:3          e, O3-
+        70nothing                   3O -> O + O2            0.00               O                     O2:1, O:-2         O, O, O
+        71nothing              3O -> O + O2_b1Su            0.00               O                O2_b1Su:1, O:-2         O, O, O
+        72nothing              2O + O2 -> O + O3            0.00               O              O:-1, O3:1, O2:-1        O, O, O2
+        73nothing            2O + O2 -> O + O3_v            0.00               O            O3_v:1, O:-1, O2:-1        O, O, O2
+        74nothing        2O + O2 -> O2_a1Ag + O2            0.00               O          O2:0, O2_a1Ag:1, O:-2        O, O, O2
+        75nothing        2O + O2 -> O2_b1Su + O2            0.00               O          O2:0, O2_b1Su:1, O:-2        O, O, O2
+        76nothing                 O + O_1d -> 2O            0.00               O                   O_1d:-1, O:1         O, O_1d
+        77nothing                 O + O_1s -> 2O            0.00               O                   O_1s:-1, O:1         O, O_1s
+        78nothing           O + O_1s -> O + O_1d            0.00               O           O_1s:-1, O_1d:1, O:0         O, O_1s
+        79nothing             O + 2O2 -> O2 + O3            0.00               O              O2:-1, O3:1, O:-1       O, O2, O2
+        80nothing           O + 2O2 -> O2 + O3_v            0.00               O            O3_v:1, O2:-1, O:-1       O, O2, O2
+        81nothing    O + O2 + O2_a1Ag -> O + 2O2            0.00               O          O2:1, O2_a1Ag:-1, O:0  O, O2, O2_a1Ag
+        82nothing             O + O2 + O3 -> 2O3            0.00               O              O:-1, O3:1, O2:-1       O, O2, O3
+        83nothing       O + O2 + O3 -> O3 + O3_v            0.00               O      O3_v:1, O:-1, O3:0, O2:-1       O, O2, O3
+        84nothing          O + O2_a1Ag -> O + O2           -2.14               O          O2:1, O2_a1Ag:-1, O:0      O, O2_a1Ag
+        85nothing     O + O2_b1Su -> O + O2_a1Ag           -0.65               O     O2_b1Su:-1, O2_a1Ag:1, O:0      O, O2_b1Su
+        86nothing              O + O3 -> 2O + O2            0.00               O               O2:1, O3:-1, O:1           O, O3
+        87nothing                  O + O3 -> 2O2            0.00               O              O2:2, O3:-1, O:-1           O, O3
+        88nothing                O + O3_v -> 2O2            0.00               O            O3_v:-1, O2:2, O:-1         O, O3_v
+        89nothing             O + O3_v -> O3 + O            0.00               O             O3_v:-1, O3:1, O:0         O, O3_v
+        90nothing       O_1d + O2 -> O + O2_b1Su            0.00            O_1d O:1, O2_b1Su:1, O_1d:-1, O2:-1        O_1d, O2
+        91nothing       O_1d + O2 -> O + O2_a1Ag            0.00            O_1d O:1, O2_a1Ag:1, O_1d:-1, O2:-1        O_1d, O2
+        92nothing           O_1d + O3 -> 2O + O2            0.00            O_1d      O2:1, O3:-1, O_1d:-1, O:2        O_1d, O3
+        93nothing               O_1d + O3 -> 2O2            0.00            O_1d           O3:-1, O_1d:-1, O2:2        O_1d, O3
+        94nothing            O_1s + O2 -> O + O2            0.00            O_1s             O2:0, O_1s:-1, O:1        O_1s, O2
+        95nothing       O_1s + O2_a1Ag -> O + O2            0.00            O_1s O2:1, O_1s:-1, O2_a1Ag:-1, O:1   O_1s, O2_a1Ag
+        96nothing       O_1s + O2_b1Su -> O + O2            0.00            O_1s O2:1, O2_b1Su:-1, O_1s:-1, O:1   O_1s, O2_b1Su
+        97nothing         O_1s + O2 -> O_1d + O2            0.00            O_1s          O_1s:-1, O_1d:1, O2:0        O_1s, O2
+        98nothing           O_1s + O2_a1Ag -> 3O            0.00            O_1s       O_1s:-1, O2_a1Ag:-1, O:3   O_1s, O2_a1Ag
+        99nothing  O_1s + O2_a1Ag -> O + O2_b1Su            0.00            O_1s O2_b1Su:1, O_1s:-1, O2_a1Ag:-1, O:1   O_1s, O2_a1Ag
+       100nothing    O_1s + O2_a1Ag -> O_1d + O2            0.00            O_1s O_1s:-1, O2_a1Ag:-1, O_1d:1, O2:1   O_1s, O2_a1Ag
+       101nothing     O_1s + O3 -> O + O_1d + O2            0.00            O_1s O2:1, O3:-1, O_1s:-1, O_1d:1, O:1        O_1s, O3
+       102nothing               O_1s + O3 -> 2O2            0.00            O_1s           O3:-1, O_1s:-1, O2:2        O_1s, O3
+       103nothing           O_1s + O3 -> 2O + O2            0.00            O_1s      O2:1, O3:-1, O_1s:-1, O:2        O_1s, O3
+       104nothing                 2O2 -> 2O + O2            0.00              O2                     O2:-1, O:2          O2, O2
+       105nothing            O2 + O2_a1Ag -> 2O2            0.00              O2               O2_a1Ag:-1, O2:1     O2, O2_a1Ag
+       106nothing   O2 + O2_b1Su -> O2 + O2_a1Ag            0.00              O2    O2_b1Su:-1, O2_a1Ag:1, O2:0     O2, O2_b1Su
+       107nothing             O2 + O3 -> O + 2O2            0.00              O2               O2:1, O3:-1, O:1          O2, O3
+       108nothing           O2 + O3_v -> O2 + O3            0.00              O2            O3_v:-1, O3:1, O2:0        O2, O3_v
+       109nothing       2O2_a1Ag -> O2 + O2_b1Su            0.00         O2_a1Ag    O2_b1Su:1, O2_a1Ag:-2, O2:1 O2_a1Ag, O2_a1Ag
+       110nothing O2_a1Ag + O2_b1Su -> O2 + O2_b1Su            0.00         O2_a1Ag    O2_b1Su:0, O2_a1Ag:-1, O2:1 O2_a1Ag, O2_b1Su
+       111nothing       2O2_b1Su -> O2 + O2_b1Su            0.00         O2_b1Su               O2_b1Su:-1, O2:1 O2_b1Su, O2_b1Su
+       112nothing        O2_a1Ag + O3 -> O + 2O2            0.00         O2_a1Ag   O2:2, O3:-1, O2_a1Ag:-1, O:1     O2_a1Ag, O3
+       113nothing      O2_a1Ag + O3_v -> O2 + O3            0.00         O2_a1Ag O3_v:-1, O3:1, O2_a1Ag:-1, O2:1   O2_a1Ag, O3_v
+       114nothing        O2_b1Su + O3 -> O + 2O2            0.00         O2_b1Su   O2:2, O2_b1Su:-1, O3:-1, O:1     O2_b1Su, O3
+       115nothing        O2_b1Su + O3 -> O2 + O3            0.00         O2_b1Su         O2_b1Su:-1, O3:0, O2:1     O2_b1Su, O3
+       116nothing   O2_b1Su + O3 -> O2_a1Ag + O3            0.00         O2_b1Su    O2_b1Su:-1, O3:0, O2_a1Ag:1     O2_b1Su, O3
+       117nothing             2O3 -> O + O2 + O3            0.00              O3               O2:1, O3:-1, O:1          O3, O3
+       118nothing               O3 + O3_v -> 2O3            0.00              O3                  O3_v:-1, O3:1        O3, O3_v
+       119nothing               2e + O+ -> e + O            0.00         nothing               O+:-1, e:-1, O:1        e, e, O+
+       120nothing             2e + O2+ -> e + O2            0.00         nothing             O2:1, e:-1, O2+:-1       e, e, O2+
+       121nothing            2e + O4+ -> e + 2O2            0.00         nothing             O4+:-1, e:-1, O2:2       e, e, O4+
+       122nothing          e + O + O2 -> O + O2-            0.00               O        O:0, e:-1, O2-:1, O2:-1        e, O, O2
+       123nothing                 e + O+ -> O_1d            0.00         nothing            O+:-1, e:-1, O_1d:1           e, O+
+       124nothing          e + O+ + O2 -> O + O2            0.00              O2         O2:0, O+:-1, e:-1, O:1       e, O+, O2
+       125nothing            e + 2O2 -> O2 + O2-            0.00              O2             e:-1, O2-:1, O2:-1       e, O2, O2
+       126nothing            e + O2 + O2+ -> 2O2            0.00              O2             O2:1, e:-1, O2+:-1      e, O2, O2+
+       127nothing        e + O2 + O3 -> O2 + O3-            0.00              O2       O3:-1, e:-1, O3-:1, O2:0       e, O2, O3
+       128nothing            e + O2+ -> O + O_1d            0.00         nothing      O:1, e:-1, O_1d:1, O2+:-1          e, O2+
+       129nothing         e + O2+ -> O_1d + O_1s            0.00         nothing   e:-1, O_1s:1, O_1d:1, O2+:-1          e, O2+
+       130nothing       e + O4+ -> O + O_1d + O2            0.00         nothing O4+:-1, O2:1, e:-1, O_1d:1, O:1          e, O4+
+       131nothing    e + O4+ -> O_1d + O_1s + O2            0.00         nothing O4+:-1, e:-1, O_1s:1, O_1d:1, O2:1          e, O4+
+       132nothing               O + O- -> e + O2            0.00               O         O2:1, e:1, O-:-1, O:-1           O, O-
+       133nothing             O + O2- -> O- + O2            0.00               O       O2:1, O-:1, O2-:-1, O:-1          O, O2-
+       134nothing              O + O2- -> e + O3            0.00               O        O3:1, e:1, O2-:-1, O:-1          O, O2-
+       135nothing             O + O3- -> e + 2O2            0.00               O        O2:2, e:1, O3-:-1, O:-1          O, O3-
+       136nothing            O + O3- -> O2 + O2-            0.00               O      O2:1, O2-:1, O3-:-1, O:-1          O, O3-
+       137nothing            O + O4+ -> O3 + O2+            0.00               O      O4+:-1, O2+:1, O3:1, O:-1          O, O4+
+       138nothing            O + O4- -> O2 + O3-            0.00               O      O2:1, O4-:-1, O3-:1, O:-1          O, O4-
+       139nothing            O_1d + O- -> e + 2O            0.00            O_1d       e:1, O-:-1, O_1d:-1, O:2        O_1d, O-
+       140nothing           O_1d + O2- -> e + O3            0.00            O_1d     O3:1, e:1, O2-:-1, O_1d:-1       O_1d, O2-
+       141nothing          O_1d + O2- -> O- + O2            0.00            O_1d    O-:1, O2-:-1, O_1d:-1, O2:1       O_1d, O2-
+       142nothing         O_1d + O3+ -> 2O + O2+            0.00            O_1d    O2+:1, O3+:-1, O_1d:-1, O:2       O_1d, O3+
+       143nothing      O_1d + O3- -> O + O2 + O-            0.00            O_1d O2:1, O-:1, O_1d:-1, O3-:-1, O:1       O_1d, O3-
+       144nothing       O_1d + O3- -> O + O3 + e            0.00            O_1d O3:1, e:1, O_1d:-1, O3-:-1, O:1       O_1d, O3-
+       145nothing     O_1d + O4+ -> O + O2 + O2+            0.00            O_1d O:1, O4+:-1, O2:1, O_1d:-1, O2+:1       O_1d, O4+
+       146nothing         O_1d + O4+ -> O3 + O2+            0.00            O_1d   O4+:-1, O3:1, O_1d:-1, O2+:1       O_1d, O4+
+       147nothing      O_1d + O4- -> e + O + 2O2            0.00            O_1d O2:2, e:1, O4-:-1, O_1d:-1, O:1       O_1d, O4-
+       148nothing     O_1d + O4- -> O + O2 + O2-            0.00            O_1d O2:1, O4-:-1, O2-:1, O_1d:-1, O:1       O_1d, O4-
+       149nothing         O_1d + O4- -> 2O2 + O-            0.00            O_1d    O-:1, O4-:-1, O_1d:-1, O2:2       O_1d, O4-
+       150nothing            O_1s + O- -> e + 2O            0.00            O_1s       e:1, O_1s:-1, O-:-1, O:2        O_1s, O-
+       151nothing          O_1s + O2- -> O- + O2            0.00            O_1s    O_1s:-1, O-:1, O2-:-1, O2:1       O_1s, O2-
+       152nothing           O_1s + O2- -> e + O3            0.00            O_1s     O3:1, e:1, O_1s:-1, O2-:-1       O_1s, O2-
+       153nothing         O_1s + O3+ -> 2O + O2+            0.00            O_1s    O2+:1, O_1s:-1, O3+:-1, O:2       O_1s, O3+
+       154nothing       O_1s + O3- -> e + O + O3            0.00            O_1s O3:1, e:1, O_1s:-1, O3-:-1, O:1       O_1s, O3-
+       155nothing         O_1s + O3- -> 2O + O2-            0.00            O_1s    O_1s:-1, O2-:1, O3-:-1, O:2       O_1s, O3-
+       156nothing      O_1s + O3- -> O + O- + O2            0.00            O_1s O2:1, O_1s:-1, O-:1, O3-:-1, O:1       O_1s, O3-
+       157nothing     O_1s + O4+ -> O + O2 + O2+            0.00            O_1s O:1, O4+:-1, O2:1, O_1s:-1, O2+:1       O_1s, O4+
+       158nothing         O_1s + O4+ -> O2+ + O3            0.00            O_1s   O4+:-1, O3:1, O_1s:-1, O2+:1       O_1s, O4+
+       159nothing      O_1s + O4- -> e + O + 2O2            0.00            O_1s O2:2, e:1, O_1s:-1, O4-:-1, O:1       O_1s, O4-
+       160nothing     O_1s + O4- -> O + O2 + O2-            0.00            O_1s O2:1, O_1s:-1, O4-:-1, O2-:1, O:1       O_1s, O4-
+       161nothing         O_1s + O4- -> O- + 2O2            0.00            O_1s    O_1s:-1, O-:1, O4-:-1, O2:2       O_1s, O4-
+       162nothing        O+ + O + O2 -> O2 + O2+            0.00               O       O:-1, O2+:1, O+:-1, O2:0       O+, O, O2
+       163nothing             O+ + O2 -> O + O2+            0.00              O2       O2:-1, O2+:1, O+:-1, O:1          O+, O2
+       164nothing            O+ + O3 -> O2 + O2+            0.00              O3      O2+:1, O+:-1, O3:-1, O2:1          O+, O3
+       165nothing              O- + O2 -> O3 + e            0.00              O2        O3:1, e:1, O-:-1, O2:-1          O-, O2
+       166nothing             O- + O2 -> O2- + O            0.00              O2       O:1, O-:-1, O2-:1, O2:-1          O-, O2
+       167nothing           O- + 2O2 -> O2 + O3-            0.00              O2            O-:-1, O3-:1, O2:-1      O-, O2, O2
+       168nothing        O- + O2_a1Ag -> O + O2-            0.00         O2_a1Ag  O-:-1, O2_a1Ag:-1, O2-:1, O:1     O-, O2_a1Ag
+       169nothing         O- + O2_a1Ag -> O3 + e            0.00         O2_a1Ag   O3:1, e:1, O-:-1, O2_a1Ag:-1     O-, O2_a1Ag
+       170nothing        O- + O2_b1Su -> O + O2-            0.00         O2_b1Su  O2_b1Su:-1, O-:-1, O2-:1, O:1     O-, O2_b1Su
+       171nothing         O- + O2_b1Su -> O3 + e            0.00         O2_b1Su   O2_b1Su:-1, O3:1, e:1, O-:-1     O-, O2_b1Su
+       172nothing             O- + O3 -> e + 2O2            0.00              O3        O3:-1, e:1, O-:-1, O2:2          O-, O3
+       173nothing             O- + O3 -> O + O3-            0.00              O3       O3:-1, O-:-1, O3-:1, O:1          O-, O3
+       174nothing            O- + O3 -> O2 + O2-            0.00              O3      O3:-1, O-:-1, O2-:1, O2:1          O-, O3
+       175nothing          2O2 + O2+ -> O2 + O4+            0.00              O2           O4+:1, O2:-1, O2+:-1     O2, O2, O2+
+       176nothing          2O2 + O2- -> O2 + O4-            0.00              O2           O4-:1, O2-:-1, O2:-1     O2, O2, O2-
+       177nothing            O2 + O2- -> e + 2O2            0.00              O2              e:1, O2-:-1, O2:1         O2, O2-
+       178nothing            O2 + O2- -> O + O3-            0.00              O2      O:1, O2-:-1, O3-:1, O2:-1         O2, O2-
+       179nothing           O2 + O3+ -> O2+ + O3            0.00              O2     O2+:1, O3:1, O3+:-1, O2:-1         O2, O3+
+       180nothing          O2 + O4+ -> 2O2 + O2+            0.00              O2            O4+:-1, O2+:1, O2:1         O2, O4+
+       181nothing          O2 + O4- -> 2O2 + O2-            0.00              O2            O4-:-1, O2-:1, O2:1         O2, O4-
+       182nothing       O2_a1Ag + O2- -> e + 2O2            0.00         O2_a1Ag  e:1, O2_a1Ag:-1, O2-:-1, O2:2    O2_a1Ag, O2-
+       183nothing     O2_a1Ag + O4+ -> 2O2 + O2+            0.00         O2_a1Ag O4+:-1, O2+:1, O2_a1Ag:-1, O2:2    O2_a1Ag, O4+
+       184nothing       O2_a1Ag + O4- -> 3O2 + e            0.00         O2_a1Ag  e:1, O2_a1Ag:-1, O4-:-1, O2:3    O2_a1Ag, O4-
+       185nothing     O2_a1Ag + O4- -> 2O2 + O2-            0.00         O2_a1Ag O2_a1Ag:-1, O4-:-1, O2-:1, O2:2    O2_a1Ag, O4-
+       186nothing       O2_b1Su + O2- -> e + 2O2            0.00         O2_b1Su  O2_b1Su:-1, e:1, O2-:-1, O2:2    O2_b1Su, O2-
+       187nothing      O2_b1Su + O3- -> O- + 2O2            0.00         O2_b1Su O2_b1Su:-1, O-:1, O3-:-1, O2:2    O2_b1Su, O3-
+       188nothing     O2_b1Su + O4+ -> 2O2 + O2+            0.00         O2_b1Su O4+:-1, O2+:1, O2_b1Su:-1, O2:2    O2_b1Su, O4+
+       189nothing       O2_b1Su + O4- -> e + 3O2            0.00         O2_b1Su  O2_b1Su:-1, e:1, O4-:-1, O2:3    O2_b1Su, O4-
+       190nothing     O2_b1Su + O4- -> 2O2 + O2-            0.00         O2_b1Su O2_b1Su:-1, O4-:-1, O2-:1, O2:2    O2_b1Su, O4-
+       191nothing           O2- + O3 -> O2 + O3-            0.00              O3     O3:-1, O2-:-1, O3-:1, O2:1         O2-, O3
+       192nothing          O3 + O4- -> 2O2 + O3-            0.00              O3     O3:-1, O4-:-1, O3-:1, O2:2         O3, O4-
+       193nothing            O3- + O3 -> e + 3O2            0.00              O3       O3:-1, e:1, O3-:-1, O2:3         O3-, O3
+       194nothing             O + Ar_m -> O + Ar            0.00               O             Ar_m:-1, Ar:1, O:0         O, Ar_m
+       195nothing             O + Ar_r -> O + Ar            0.00               O             Ar_r:-1, Ar:1, O:0         O, Ar_r
+       196nothing       O2 + Ar_4p -> O + O + Ar            0.00              O2     O:2, Ar:1, Ar_4p:-1, O2:-1       O2, Ar_4p
+       197nothing  O2_a1Ag + Ar_4p -> O + O + Ar            0.00         O2_a1Ag Ar:1, Ar_4p:-1, O2_a1Ag:-1, O:2  O2_a1Ag, Ar_4p
+       198nothing  O2_b1Su + Ar_4p -> O + O + Ar            0.00         O2_b1Su O2_b1Su:-1, Ar:1, Ar_4p:-1, O:2  O2_b1Su, Ar_4p
+       199nothing    O2 + Ar_4p -> O + O_1d + Ar            0.00              O2 O:1, Ar:1, Ar_4p:-1, O_1d:1, O2:-1       O2, Ar_4p
+       200nothing O2_a1Ag + Ar_4p -> O + O_1d + Ar            0.00         O2_a1Ag Ar:1, Ar_4p:-1, O2_a1Ag:-1, O_1d:1, O:1  O2_a1Ag, Ar_4p
+       201nothing O2_b1Su + Ar_4p -> O + O_1d + Ar            0.00         O2_b1Su O2_b1Su:-1, Ar:1, Ar_4p:-1, O_1d:1, O:1  O2_b1Su, Ar_4p
+       202nothing           O2 + Ar+ -> O2+ + Ar            0.00              O2     O2+:1, Ar:1, Ar+:-1, O2:-1         O2, Ar+
+       203nothing      O2_a1Ag + Ar+ -> O2+ + Ar            0.00         O2_a1Ag Ar:1, O2_a1Ag:-1, Ar+:-1, O2+:1    O2_a1Ag, Ar+
+       204nothing      O2_b1Su + Ar+ -> O2+ + Ar            0.00         O2_b1Su O2_b1Su:-1, Ar:1, Ar+:-1, O2+:1    O2_b1Su, Ar+
+       205nothing             O + Ar+ -> O+ + Ar            0.00               O       O+:1, Ar:1, Ar+:-1, O:-1          O, Ar+
+       206nothing        O2 + Ar_m -> O + O + Ar            0.00              O2      Ar_m:-1, O:2, Ar:1, O2:-1        O2, Ar_m
+       207nothing     O2 + Ar_m -> O + O_1d + Ar            0.00              O2 Ar_m:-1, O:1, Ar:1, O_1d:1, O2:-1        O2, Ar_m
+       208nothing     O2 + Ar_m -> O + O_1s + Ar            0.00              O2 Ar_m:-1, O:1, Ar:1, O_1s:1, O2:-1        O2, Ar_m
+       209nothing        O2 + Ar_r -> O + O + Ar            0.00              O2      O:2, Ar_r:-1, Ar:1, O2:-1        O2, Ar_r
+       210nothing     O2 + Ar_r -> O + O_1d + Ar            0.00              O2 O:1, Ar_r:-1, Ar:1, O_1d:1, O2:-1        O2, Ar_r
+       211nothing     O2 + Ar_r -> O + O_1s + Ar            0.00              O2 O:1, Ar_r:-1, Ar:1, O_1s:1, O2:-1        O2, Ar_r
+       212nothing   O2_a1Ag + Ar_m -> O + O + Ar            0.00         O2_a1Ag Ar_m:-1, Ar:1, O2_a1Ag:-1, O:2   O2_a1Ag, Ar_m
+       213nothing O2_a1Ag + Ar_m -> O + O_1d + Ar            0.00         O2_a1Ag Ar_m:-1, Ar:1, O2_a1Ag:-1, O_1d:1, O:1   O2_a1Ag, Ar_m
+       214nothing O2_a1Ag + Ar_m -> O + O_1s + Ar            0.00         O2_a1Ag Ar_m:-1, Ar:1, O_1s:1, O2_a1Ag:-1, O:1   O2_a1Ag, Ar_m
+       215nothing   O2_a1Ag + Ar_r -> O + O + Ar            0.00         O2_a1Ag Ar_r:-1, Ar:1, O2_a1Ag:-1, O:2   O2_a1Ag, Ar_r
+       216nothing O2_a1Ag + Ar_r -> O + O_1d + Ar            0.00         O2_a1Ag Ar_r:-1, Ar:1, O2_a1Ag:-1, O_1d:1, O:1   O2_a1Ag, Ar_r
+       217nothing O2_a1Ag + Ar_r -> O + O_1s + Ar            0.00         O2_a1Ag Ar_r:-1, Ar:1, O_1s:1, O2_a1Ag:-1, O:1   O2_a1Ag, Ar_r
+       218nothing   O2_b1Su + Ar_m -> O + O + Ar            0.00         O2_b1Su Ar_m:-1, O2_b1Su:-1, Ar:1, O:2   O2_b1Su, Ar_m
+       219nothing O2_b1Su + Ar_m -> O + O_1d + Ar            0.00         O2_b1Su Ar_m:-1, O2_b1Su:-1, Ar:1, O_1d:1, O:1   O2_b1Su, Ar_m
+       220nothing O2_b1Su + Ar_m -> O + O_1s + Ar            0.00         O2_b1Su Ar_m:-1, O2_b1Su:-1, Ar:1, O_1s:1, O:1   O2_b1Su, Ar_m
+       221nothing   O2_b1Su + Ar_r -> O + O + Ar            0.00         O2_b1Su O2_b1Su:-1, Ar_r:-1, Ar:1, O:2   O2_b1Su, Ar_r
+       222nothing O2_b1Su + Ar_r -> O + O_1d + Ar            0.00         O2_b1Su O2_b1Su:-1, Ar_r:-1, Ar:1, O_1d:1, O:1   O2_b1Su, Ar_r
+       223nothing O2_b1Su + Ar_r -> O + O_1s + Ar            0.00         O2_b1Su O2_b1Su:-1, Ar_r:-1, Ar:1, O_1s:1, O:1   O2_b1Su, Ar_r
+       224nothing            O_1d + O2 -> O + O2            0.00            O_1d             O2:0, O_1d:-1, O:1        O_1d, O2
+       225nothing       O_1d + O2_a1Ag -> O + O2            0.00            O_1d O2:1, O2_a1Ag:-1, O_1d:-1, O:1   O_1d, O2_a1Ag
+       226nothing       O_1d + O2_b1Su -> O + O2            0.00            O_1d O2:1, O2_b1Su:-1, O_1d:-1, O:1   O_1d, O2_b1Su
+       227nothing            O_1d + Ar -> Ar + O            0.00            O_1d             Ar:0, O_1d:-1, O:1        O_1d, Ar
+       228nothing            O_1s + Ar -> Ar + O            0.00            O_1s             Ar:0, O_1s:-1, O:1        O_1s, Ar
+       229nothing          O + Ar_m -> Ar + O_3p            0.00               O    Ar_m:-1, O_3p:1, Ar:1, O:-1         O, Ar_m
+       230nothing         O_3p + Ar -> Ar + O_5p            0.00            O_3p          Ar:0, O_5p:1, O_3p:-1        O_3p, Ar
+       231nothing            O_3p + O2 -> O + O2            0.00            O_3p             O_3p:-1, O2:0, O:1        O_3p, O2
+       232nothing       O_3p + O2_a1Ag -> O + O2            0.00            O_3p O_3p:-1, O2:1, O2_a1Ag:-1, O:1   O_3p, O2_a1Ag
+       233nothing       O_3p + O2_b1Su -> O + O2            0.00            O_3p O_3p:-1, O2:1, O2_b1Su:-1, O:1   O_3p, O2_b1Su
+       234nothing            O_3p + O3 -> O + O3            0.00            O_3p             O:1, O3:0, O_3p:-1        O_3p, O3
+       235nothing              O_3p + O -> O + O            0.00            O_3p                   O:1, O_3p:-1         O_3p, O
+       236nothing            O_3p + Ar -> O + Ar            0.00            O_3p             O:1, Ar:0, O_3p:-1        O_3p, Ar
+       237nothing            O_3s + O2 -> O + O2            0.00            O_3s             O2:0, O_3s:-1, O:1        O_3s, O2
+       238nothing       O_3s + O2_a1Ag -> O + O2            0.00            O_3s O2:1, O2_a1Ag:-1, O_3s:-1, O:1   O_3s, O2_a1Ag
+       239nothing       O_3s + O2_b1Su -> O + O2            0.00            O_3s O2:1, O2_b1Su:-1, O_3s:-1, O:1   O_3s, O2_b1Su
+       240nothing            O_3s + O3 -> O + O3            0.00            O_3s             O3:0, O_3s:-1, O:1        O_3s, O3
+       241nothing              O_3s + O -> O + O            0.00            O_3s                   O_3s:-1, O:1         O_3s, O
+       242nothing            O_3s + Ar -> O + Ar            0.00            O_3s             Ar:0, O_3s:-1, O:1        O_3s, Ar
+       243nothing            O_5p + O2 -> O + O2            0.00            O_5p             O2:0, O_5p:-1, O:1        O_5p, O2
+       244nothing       O_5p + O2_a1Ag -> O + O2            0.00            O_5p O2:1, O_5p:-1, O2_a1Ag:-1, O:1   O_5p, O2_a1Ag
+       245nothing       O_5p + O2_b1Su -> O + O2            0.00            O_5p O2:1, O2_b1Su:-1, O_5p:-1, O:1   O_5p, O2_b1Su
+       246nothing            O_5p + O3 -> O + O3            0.00            O_5p             O3:0, O_5p:-1, O:1        O_5p, O3
+       247nothing              O_5p + O -> O + O            0.00            O_5p                   O_5p:-1, O:1         O_5p, O
+       248nothing            O_5p + Ar -> O + Ar            0.00            O_5p             Ar:0, O_5p:-1, O:1        O_5p, Ar
+       249nothing            O_5s + O2 -> O + O2            0.00            O_5s             O2:0, O_5s:-1, O:1        O_5s, O2
+       250nothing       O_5s + O2_a1Ag -> O + O2            0.00            O_5s O2:1, O_5s:-1, O2_a1Ag:-1, O:1   O_5s, O2_a1Ag
+       251nothing       O_5s + O2_b1Su -> O + O2            0.00            O_5s O2:1, O2_b1Su:-1, O_5s:-1, O:1   O_5s, O2_b1Su
+       252nothing            O_5s + O3 -> O + O3            0.00            O_5s             O3:0, O_5s:-1, O:1        O_5s, O3
+       253nothing              O_5s + O -> O + O            0.00            O_5s                   O_5s:-1, O:1         O_5s, O
+       254nothing            O_5s + Ar -> O + Ar            0.00            O_5s             Ar:0, O_5s:-1, O:1        O_5s, Ar
+       255nothing             e + Ar -> Ar+ + 2e           15.76              Ar              e:1, Ar:-1, Ar+:1           e, Ar
+       256nothing             e + Ar -> Ar_m + e           11.55              Ar             Ar_m:1, e:0, Ar:-1           e, Ar
+       257nothing             e + Ar -> Ar_m + e           11.72              Ar             Ar_m:1, e:0, Ar:-1           e, Ar
+       258nothing             e + Ar -> Ar_r + e           11.62              Ar             Ar_r:1, e:0, Ar:-1           e, Ar
+       259nothing             e + Ar -> Ar_r + e           11.83              Ar             Ar_r:1, e:0, Ar:-1           e, Ar
+       260nothing            e + Ar -> Ar_4p + e           13.21              Ar            e:0, Ar:-1, Ar_4p:1           e, Ar
+       261nothing             e + Ar_m -> Ar + e            0.00            Ar_m             Ar_m:-1, e:0, Ar:1         e, Ar_m
+       262nothing           e + Ar_m -> Ar+ + 2e            4.12            Ar_m            Ar_m:-1, e:1, Ar+:1         e, Ar_m
+       263nothing           e + Ar_m -> Ar_r + e            0.09            Ar_m           Ar_m:-1, Ar_r:1, e:0         e, Ar_m
+       264nothing          e + Ar_m -> Ar_4p + e            1.57            Ar_m          Ar_m:-1, e:0, Ar_4p:1         e, Ar_m
+       265nothing                   2Ar_m -> 2Ar            0.00            Ar_m                  Ar_m:-2, Ar:2      Ar_m, Ar_m
+       266nothing    Ar_m + Ar_r -> Ar + Ar+ + e            0.00            Ar_m Ar_m:-1, Ar_r:-1, e:1, Ar:1, Ar+:1      Ar_m, Ar_r
+       267nothing  Ar_4p + Ar_4p -> Ar + Ar+ + e            0.00           Ar_4p     e:1, Ar:1, Ar_4p:-2, Ar+:1    Ar_4p, Ar_4p
+       268nothing          2Ar_m -> Ar + Ar+ + e            0.00            Ar_m      Ar_m:-2, e:1, Ar:1, Ar+:1      Ar_m, Ar_m
+       269nothing          e + Ar_4p -> Ar+ + 2e            2.55           Ar_4p           e:1, Ar_4p:-1, Ar+:1        e, Ar_4p
+       270nothing          e + Ar_4p -> Ar_r + e            0.00           Ar_4p          Ar_r:1, e:0, Ar_4p:-1        e, Ar_4p
+       271nothing          e + Ar_4p -> Ar_m + e            0.00           Ar_4p          Ar_m:1, e:0, Ar_4p:-1        e, Ar_4p
+       272nothing            e + Ar_4p -> Ar + e            0.00           Ar_4p            e:0, Ar:1, Ar_4p:-1        e, Ar_4p
+       273nothing               Ar + Ar_m -> 2Ar            0.00              Ar                  Ar_m:-1, Ar:1        Ar, Ar_m
+       274nothing             e + Ar_r -> Ar + e            0.00            Ar_r             Ar_r:-1, e:0, Ar:1         e, Ar_r
+       275nothing           e + Ar_r -> Ar_m + e            0.00            Ar_r           Ar_m:1, Ar_r:-1, e:0         e, Ar_r
+       276nothing          e + Ar_r -> Ar_4p + e            1.48            Ar_r          Ar_r:-1, e:0, Ar_4p:1         e, Ar_r
+       277nothing              e + O -> e + O_5s            9.15               O              e:0, O_5s:1, O:-1            e, O
+       278nothing              e + O -> e + O_3s            9.52               O              e:0, O_3s:1, O:-1            e, O
+       279nothing              e + O -> e + O_5p           10.74               O              e:0, O_5p:1, O:-1            e, O
+       280nothing              e + O -> e + O_3p           10.99               O              O_3p:1, e:0, O:-1            e, O
+       281nothing              e + O -> e + O_3p           12.00               O              O_3p:1, e:0, O:-1            e, O
+       282nothing           e + O_1d -> e + O_1s            2.22            O_1d           e:0, O_1s:1, O_1d:-1         e, O_1d
+       283nothing           e + O_1d -> e + O_3s            7.55            O_1d           e:0, O_1d:-1, O_3s:1         e, O_1d
+       284nothing           e + O_1d -> e + O_3p            9.02            O_1d           e:0, O_1d:-1, O_3p:1         e, O_1d
+       285nothing           e + O_1d -> e + O_3p           11.03            O_1d           e:0, O_1d:-1, O_3p:1         e, O_1d
+       286nothing           e + O_1s -> e + O_3p            6.80            O_1s           e:0, O_1s:-1, O_3p:1         e, O_1s
+       287nothing           e + O_1s -> e + O_3p            7.81            O_1s           e:0, O_1s:-1, O_3p:1         e, O_1s
+       288nothing           e + O_5s -> e + O_3s            0.37            O_5s           e:0, O_5s:-1, O_3s:1         e, O_5s
+       289nothing           e + O_5s -> e + O_5p            1.59            O_5s           e:0, O_5s:-1, O_5p:1         e, O_5s
+       290nothing           e + O_5s -> e + O_3p            1.84            O_5s           e:0, O_5s:-1, O_3p:1         e, O_5s
+       291nothing           e + O_3s -> e + O_5p            1.22            O_3s           e:0, O_5p:1, O_3s:-1         e, O_3s
+       292nothing           e + O_3s -> e + O_3p            1.47            O_3s           e:0, O_3s:-1, O_3p:1         e, O_3s
+       293nothing           e + O_5p -> e + O_3p            0.25            O_5p           e:0, O_5p:-1, O_3p:1         e, O_5p
+       294nothing         e + O2 -> e + O + O_1s            0.00              O2        O:1, e:0, O_1s:1, O2:-1           e, O2
+       295nothing    e + O2_a1Ag -> e + O + O_1s            0.00         O2_a1Ag   e:0, O_1s:1, O2_a1Ag:-1, O:1      e, O2_a1Ag
+       296nothing    e + O2_b1Su -> e + O + O_1s            0.00         O2_b1Su   O2_b1Su:-1, e:0, O_1s:1, O:1      e, O2_b1Su
+       297nothing              e + O -> e + O_5s            0.00               O              e:0, O_5s:1, O:-1            e, O
+       298nothing               e + O2 -> e + 2O            0.00              O2                O:2, e:0, O2:-1           e, O2
+       299nothing          e + O2_a1Ag -> e + 2O            0.00         O2_a1Ag           e:0, O2_a1Ag:-1, O:2      e, O2_a1Ag
+       300nothing          e + O2_b1Su -> e + 2O            0.00         O2_b1Su           O2_b1Su:-1, e:0, O:2      e, O2_b1Su
+       301nothing               e + O2 -> e + 2O            0.00              O2                O:2, e:0, O2:-1           e, O2
+       302nothing          e + O2_a1Ag -> e + 2O            0.00         O2_a1Ag           e:0, O2_a1Ag:-1, O:2      e, O2_a1Ag
+       303nothing          e + O2_b1Su -> e + 2O            0.00         O2_b1Su           O2_b1Su:-1, e:0, O:2      e, O2_b1Su
+       304nothing         e + O2 -> e + O + O_5s            0.00              O2        O:1, e:0, O_5s:1, O2:-1           e, O2
+       305nothing    e + O2_a1Ag -> e + O + O_5s            0.00         O2_a1Ag   e:0, O_5s:1, O2_a1Ag:-1, O:1      e, O2_a1Ag
+       306nothing    e + O2_b1Su -> e + O + O_5s            0.00         O2_b1Su   O2_b1Su:-1, e:0, O_5s:1, O:1      e, O2_b1Su
+       307nothing         e + O2 -> e + O + O_3s            0.00              O2        O:1, e:0, O_3s:1, O2:-1           e, O2
+       308nothing    e + O2_a1Ag -> e + O + O_3s            0.00         O2_a1Ag   e:0, O2_a1Ag:-1, O_3s:1, O:1      e, O2_a1Ag
+       309nothing    e + O2_b1Su -> e + O + O_3s            0.00         O2_b1Su   O2_b1Su:-1, e:0, O_3s:1, O:1      e, O2_b1Su
+       310nothing              Ar + O  -> Ar + O            0.00              Ar                      Ar:0, O:0           Ar, O
+       311nothing             Ar + O2 -> Ar + O2            0.00              Ar                     Ar:0, O2:0          Ar, O2
+       312nothing             Ar + O3 -> Ar + O3            0.00              Ar                     O3:0, Ar:0          Ar, O3
+       313nothing             Ar + O4 -> Ar + O4            0.00              Ar                     Ar:0, O4:0          Ar, O4
+       314nothing             Ar + Ar -> Ar + Ar            0.00              Ar                           Ar:0          Ar, Ar
+       315nothing          Ar_m + O  -> Ar_m + O            0.00            Ar_m                    Ar_m:0, O:0         Ar_m, O
+       316nothing         Ar_m + O2 -> Ar_m + O2            0.00            Ar_m                   Ar_m:0, O2:0        Ar_m, O2
+       317nothing         Ar_m + O3 -> Ar_m + O3            0.00            Ar_m                   Ar_m:0, O3:0        Ar_m, O3
+       318nothing         Ar_m + O4 -> Ar_m + O4            0.00            Ar_m                   Ar_m:0, O4:0        Ar_m, O4
+       319nothing         Ar_m + Ar -> Ar_m + Ar            0.00            Ar_m                   Ar_m:0, Ar:0        Ar_m, Ar
+       320nothing          Ar_r + O  -> Ar_r + O            0.00            Ar_r                    Ar_r:0, O:0         Ar_r, O
+       321nothing         Ar_r + O2 -> Ar_r + O2            0.00            Ar_r                   Ar_r:0, O2:0        Ar_r, O2
+       322nothing         Ar_r + O3 -> Ar_r + O3            0.00            Ar_r                   Ar_r:0, O3:0        Ar_r, O3
+       323nothing         Ar_r + O4 -> Ar_r + O4            0.00            Ar_r                   Ar_r:0, O4:0        Ar_r, O4
+       324nothing         Ar_r + Ar -> Ar_r + Ar            0.00            Ar_r                   Ar_r:0, Ar:0        Ar_r, Ar
+       325nothing        Ar_4p + O  -> Ar_4p + O            0.00           Ar_4p                   Ar_4p:0, O:0        Ar_4p, O
+       326nothing       Ar_4p + O2 -> Ar_4p + O2            0.00           Ar_4p                  Ar_4p:0, O2:0       Ar_4p, O2
+       327nothing       Ar_4p + O3 -> Ar_4p + O3            0.00           Ar_4p                  O3:0, Ar_4p:0       Ar_4p, O3
+       328nothing       Ar_4p + O4 -> Ar_4p + O4            0.00           Ar_4p                  Ar_4p:0, O4:0       Ar_4p, O4
+       329nothing       Ar_4p + Ar -> Ar_4p + Ar            0.00           Ar_4p                  Ar:0, Ar_4p:0       Ar_4p, Ar
+       330nothing                O + O  -> O + O            0.00               O                            O:0            O, O
+       331nothing               O + O2 -> O + O2            0.00               O                      O2:0, O:0           O, O2
+       332nothing               O + O3 -> O + O3            0.00               O                      O3:0, O:0           O, O3
+       333nothing               O + O4 -> O + O4            0.00               O                      O4:0, O:0           O, O4
+       334nothing          O_1d + O  -> O_1d + O            0.00            O_1d                    O_1d:0, O:0         O_1d, O
+       335nothing         O_1d + O2 -> O_1d + O2            0.00            O_1d                   O_1d:0, O2:0        O_1d, O2
+       336nothing         O_1d + O3 -> O_1d + O3            0.00            O_1d                   O3:0, O_1d:0        O_1d, O3
+       337nothing         O_1d + O4 -> O_1d + O4            0.00            O_1d                   O4:0, O_1d:0        O_1d, O4
+       338nothing         O_1d + Ar -> O_1d + Ar            0.00            O_1d                   Ar:0, O_1d:0        O_1d, Ar
+       339nothing          O_1s + O  -> O_1s + O            0.00            O_1s                    O_1s:0, O:0         O_1s, O
+       340nothing         O_1s + O2 -> O_1s + O2            0.00            O_1s                   O_1s:0, O2:0        O_1s, O2
+       341nothing         O_1s + O3 -> O_1s + O3            0.00            O_1s                   O3:0, O_1s:0        O_1s, O3
+       342nothing         O_1s + O4 -> O_1s + O4            0.00            O_1s                   O_1s:0, O4:0        O_1s, O4
+       343nothing         O_1s + Ar -> O_1s + Ar            0.00            O_1s                   Ar:0, O_1s:0        O_1s, Ar
+       344nothing          O_3s + O  -> O_3s + O            0.00            O_3s                    O_3s:0, O:0         O_3s, O
+       345nothing         O_3s + O2 -> O_3s + O2            0.00            O_3s                   O_3s:0, O2:0        O_3s, O2
+       346nothing         O_3s + O3 -> O_3s + O3            0.00            O_3s                   O3:0, O_3s:0        O_3s, O3
+       347nothing         O_3s + O4 -> O_3s + O4            0.00            O_3s                   O4:0, O_3s:0        O_3s, O4
+       348nothing         O_3s + Ar -> O_3s + Ar            0.00            O_3s                   Ar:0, O_3s:0        O_3s, Ar
+       349nothing          O_5s + O  -> O_5s + O            0.00            O_5s                    O_5s:0, O:0         O_5s, O
+       350nothing         O_5s + O2 -> O_5s + O2            0.00            O_5s                   O_5s:0, O2:0        O_5s, O2
+       351nothing         O_5s + O3 -> O_5s + O3            0.00            O_5s                   O3:0, O_5s:0        O_5s, O3
+       352nothing         O_5s + O4 -> O_5s + O4            0.00            O_5s                   O_5s:0, O4:0        O_5s, O4
+       353nothing         O_5s + Ar -> O_5s + Ar            0.00            O_5s                   Ar:0, O_5s:0        O_5s, Ar
+       354nothing          O_3p + O  -> O_3p + O            0.00            O_3p                    O:0, O_3p:0         O_3p, O
+       355nothing         O_3p + O2 -> O_3p + O2            0.00            O_3p                   O2:0, O_3p:0        O_3p, O2
+       356nothing         O_3p + O3 -> O_3p + O3            0.00            O_3p                   O3:0, O_3p:0        O_3p, O3
+       357nothing         O_3p + O4 -> O_3p + O4            0.00            O_3p                   O4:0, O_3p:0        O_3p, O4
+       358nothing         O_3p + Ar -> O_3p + Ar            0.00            O_3p                   Ar:0, O_3p:0        O_3p, Ar
+       359nothing          O_5p + O  -> O_5p + O            0.00            O_5p                    O_5p:0, O:0         O_5p, O
+       360nothing         O_5p + O2 -> O_5p + O2            0.00            O_5p                   O_5p:0, O2:0        O_5p, O2
+       361nothing         O_5p + O3 -> O_5p + O3            0.00            O_5p                   O3:0, O_5p:0        O_5p, O3
+       362nothing         O_5p + O4 -> O_5p + O4            0.00            O_5p                   O_5p:0, O4:0        O_5p, O4
+       363nothing         O_5p + Ar -> O_5p + Ar            0.00            O_5p                   Ar:0, O_5p:0        O_5p, Ar
+       364nothing             O2 + O2 -> O2 + O2            0.00              O2                           O2:0          O2, O2
+       365nothing             O2 + O3 -> O2 + O3            0.00              O2                     O3:0, O2:0          O2, O3
+       366nothing             O2 + O4 -> O2 + O4            0.00              O2                     O4:0, O2:0          O2, O4
+       367nothing    O2_a1Ag + O  -> O2_a1Ag + O            0.00         O2_a1Ag                 O2_a1Ag:0, O:0      O2_a1Ag, O
+       368nothing   O2_a1Ag + O2 -> O2_a1Ag + O2            0.00         O2_a1Ag                O2_a1Ag:0, O2:0     O2_a1Ag, O2
+       369nothing   O2_a1Ag + O3 -> O2_a1Ag + O3            0.00         O2_a1Ag                O3:0, O2_a1Ag:0     O2_a1Ag, O3
+       370nothing   O2_a1Ag + O4 -> O2_a1Ag + O4            0.00         O2_a1Ag                O4:0, O2_a1Ag:0     O2_a1Ag, O4
+       371nothing   O2_a1Ag + Ar -> O2_a1Ag + Ar            0.00         O2_a1Ag                Ar:0, O2_a1Ag:0     O2_a1Ag, Ar
+       372nothing    O2_b1Su + O  -> O2_b1Su + O            0.00         O2_b1Su                 O2_b1Su:0, O:0      O2_b1Su, O
+       373nothing   O2_b1Su + O2 -> O2_b1Su + O2            0.00         O2_b1Su                O2_b1Su:0, O2:0     O2_b1Su, O2
+       374nothing   O2_b1Su + O3 -> O2_b1Su + O3            0.00         O2_b1Su                O2_b1Su:0, O3:0     O2_b1Su, O3
+       375nothing   O2_b1Su + O4 -> O2_b1Su + O4            0.00         O2_b1Su                O2_b1Su:0, O4:0     O2_b1Su, O4
+       376nothing   O2_b1Su + Ar -> O2_b1Su + Ar            0.00         O2_b1Su                O2_b1Su:0, Ar:0     O2_b1Su, Ar
+       377nothing             O3 + O3 -> O3 + O3            0.00              O3                           O3:0          O3, O3
+       378nothing             O3 + O4 -> O3 + O4            0.00              O3                     O3:0, O4:0          O3, O4
+       379nothing          O3_v + O  -> O3_v + O            0.00            O3_v                    O3_v:0, O:0         O3_v, O
+       380nothing         O3_v + O2 -> O3_v + O2            0.00            O3_v                   O3_v:0, O2:0        O3_v, O2
+       381nothing         O3_v + O3 -> O3_v + O3            0.00            O3_v                   O3_v:0, O3:0        O3_v, O3
+       382nothing         O3_v + O4 -> O3_v + O4            0.00            O3_v                   O3_v:0, O4:0        O3_v, O4
+       383nothing         O3_v + Ar -> O3_v + Ar            0.00            O3_v                   O3_v:0, Ar:0        O3_v, Ar
+       384nothing             O4 + O4 -> O4 + O4            0.00              O4                           O4:0          O4, O4
+       385nothing               O + O+ -> O + O+            0.00               O                      O+:0, O:0           O, O+
+       386nothing         O_1s + O+ -> O_1s + O+            0.00            O_1s                   O+:0, O_1s:0        O_1s, O+
+       387nothing         O_1d + O+ -> O_1d + O+            0.00            O_1d                   O+:0, O_1d:0        O_1d, O+
+       388nothing         O_3s + O+ -> O_3s + O+            0.00            O_3s                   O+:0, O_3s:0        O_3s, O+
+       389nothing         O_5s + O+ -> O_5s + O+            0.00            O_5s                   O+:0, O_5s:0        O_5s, O+
+       390nothing         O_3p + O+ -> O_3p + O+            0.00            O_3p                   O+:0, O_3p:0        O_3p, O+
+       391nothing         O_5p + O+ -> O_5p + O+            0.00            O_5p                   O+:0, O_5p:0        O_5p, O+
+       392nothing           O2 + O2+ -> O2 + O2+            0.00              O2                    O2+:0, O2:0         O2, O2+
+       393nothing O2_a1Ag + O2+ -> O2_a1Ag + O2+            0.00         O2_a1Ag               O2_a1Ag:0, O2+:0    O2_a1Ag, O2+
+       394nothing O2_b1Su + O2+ -> O2_b1Su + O2+            0.00         O2_b1Su               O2_b1Su:0, O2+:0    O2_b1Su, O2+
+       395nothing           O3 + O3+ -> O3 + O3+            0.00              O3                    O3:0, O3+:0         O3, O3+
+       396nothing       O3_v + O3+ -> O3_v + O3+            0.00            O3_v                  O3_v:0, O3+:0       O3_v, O3+
+       397nothing           O4 + O4+ -> O4 + O4+            0.00              O4                    O4+:0, O4:0         O4, O4+
+       398nothing           Ar + Ar+ -> Ar + Ar+            0.00              Ar                    Ar:0, Ar+:0         Ar, Ar+
+       399nothing              O + O+  -> O + O+            0.00               O                      O+:0, O:0           O, O+
+       400nothing             O + O2+ -> O + O2+            0.00               O                     O2+:0, O:0          O, O2+
+       401nothing             O + O3+ -> O + O3+            0.00               O                     O3+:0, O:0          O, O3+
+       402nothing             O + O4+ -> O + O4+            0.00               O                     O4+:0, O:0          O, O4+
+       403nothing             O + Ar+ -> O + Ar+            0.00               O                     Ar+:0, O:0          O, Ar+
+       404nothing        O_1d + O+  -> O_1d + O+            0.00            O_1d                   O+:0, O_1d:0        O_1d, O+
+       405nothing       O_1d + O2+ -> O_1d + O2+            0.00            O_1d                  O_1d:0, O2+:0       O_1d, O2+
+       406nothing       O_1d + O3+ -> O_1d + O3+            0.00            O_1d                  O3+:0, O_1d:0       O_1d, O3+
+       407nothing       O_1d + O4+ -> O_1d + O4+            0.00            O_1d                  O4+:0, O_1d:0       O_1d, O4+
+       408nothing       O_1d + Ar+ -> O_1d + Ar+            0.00            O_1d                  O_1d:0, Ar+:0       O_1d, Ar+
+       409nothing        O_1s + O+  -> O_1s + O+            0.00            O_1s                   O+:0, O_1s:0        O_1s, O+
+       410nothing       O_1s + O2+ -> O_1s + O2+            0.00            O_1s                  O_1s:0, O2+:0       O_1s, O2+
+       411nothing       O_1s + O3+ -> O_1s + O3+            0.00            O_1s                  O_1s:0, O3+:0       O_1s, O3+
+       412nothing       O_1s + O4+ -> O_1s + O4+            0.00            O_1s                  O4+:0, O_1s:0       O_1s, O4+
+       413nothing       O_1s + Ar+ -> O_1s + Ar+            0.00            O_1s                  O_1s:0, Ar+:0       O_1s, Ar+
+       414nothing        O_3s + O+  -> O_3s + O+            0.00            O_3s                   O+:0, O_3s:0        O_3s, O+
+       415nothing       O_3s + O2+ -> O_3s + O2+            0.00            O_3s                  O_3s:0, O2+:0       O_3s, O2+
+       416nothing       O_3s + O3+ -> O_3s + O3+            0.00            O_3s                  O3+:0, O_3s:0       O_3s, O3+
+       417nothing       O_3s + O4+ -> O_3s + O4+            0.00            O_3s                  O4+:0, O_3s:0       O_3s, O4+
+       418nothing       O_3s + Ar+ -> O_3s + Ar+            0.00            O_3s                  O_3s:0, Ar+:0       O_3s, Ar+
+       419nothing        O_5s + O+  -> O_5s + O+            0.00            O_5s                   O+:0, O_5s:0        O_5s, O+
+       420nothing       O_5s + O2+ -> O_5s + O2+            0.00            O_5s                  O_5s:0, O2+:0       O_5s, O2+
+       421nothing       O_5s + O3+ -> O_5s + O3+            0.00            O_5s                  O_5s:0, O3+:0       O_5s, O3+
+       422nothing       O_5s + O4+ -> O_5s + O4+            0.00            O_5s                  O4+:0, O_5s:0       O_5s, O4+
+       423nothing       O_5s + Ar+ -> O_5s + Ar+            0.00            O_5s                  O_5s:0, Ar+:0       O_5s, Ar+
+       424nothing        O_3p + O+  -> O_3p + O+            0.00            O_3p                   O+:0, O_3p:0        O_3p, O+
+       425nothing       O_3p + O2+ -> O_3p + O2+            0.00            O_3p                  O2+:0, O_3p:0       O_3p, O2+
+       426nothing       O_3p + O3+ -> O_3p + O3+            0.00            O_3p                  O3+:0, O_3p:0       O_3p, O3+
+       427nothing       O_3p + O4+ -> O_3p + O4+            0.00            O_3p                  O4+:0, O_3p:0       O_3p, O4+
+       428nothing       O_3p + Ar+ -> O_3p + Ar+            0.00            O_3p                  Ar+:0, O_3p:0       O_3p, Ar+
+       429nothing        O_5p + O+  -> O_5p + O+            0.00            O_5p                   O+:0, O_5p:0        O_5p, O+
+       430nothing       O_5p + O2+ -> O_5p + O2+            0.00            O_5p                  O_5p:0, O2+:0       O_5p, O2+
+       431nothing       O_5p + O3+ -> O_5p + O3+            0.00            O_5p                  O_5p:0, O3+:0       O_5p, O3+
+       432nothing       O_5p + O4+ -> O_5p + O4+            0.00            O_5p                  O4+:0, O_5p:0       O_5p, O4+
+       433nothing       O_5p + Ar+ -> O_5p + Ar+            0.00            O_5p                  O_5p:0, Ar+:0       O_5p, Ar+
+       434nothing            O2 + O+  -> O2 + O+            0.00              O2                     O+:0, O2:0          O2, O+
+       435nothing           O2 + O2+ -> O2 + O2+            0.00              O2                    O2+:0, O2:0         O2, O2+
+       436nothing           O2 + O3+ -> O2 + O3+            0.00              O2                    O3+:0, O2:0         O2, O3+
+       437nothing           O2 + O4+ -> O2 + O4+            0.00              O2                    O4+:0, O2:0         O2, O4+
+       438nothing           O2 + Ar+ -> O2 + Ar+            0.00              O2                    Ar+:0, O2:0         O2, Ar+
+       439nothing  O2_a1Ag + O+  -> O2_a1Ag + O+            0.00         O2_a1Ag                O+:0, O2_a1Ag:0     O2_a1Ag, O+
+       440nothing O2_a1Ag + O2+ -> O2_a1Ag + O2+            0.00         O2_a1Ag               O2_a1Ag:0, O2+:0    O2_a1Ag, O2+
+       441nothing O2_a1Ag + O3+ -> O2_a1Ag + O3+            0.00         O2_a1Ag               O2_a1Ag:0, O3+:0    O2_a1Ag, O3+
+       442nothing O2_a1Ag + O4+ -> O2_a1Ag + O4+            0.00         O2_a1Ag               O4+:0, O2_a1Ag:0    O2_a1Ag, O4+
+       443nothing O2_a1Ag + Ar+ -> O2_a1Ag + Ar+            0.00         O2_a1Ag               O2_a1Ag:0, Ar+:0    O2_a1Ag, Ar+
+       444nothing  O2_b1Su + O+  -> O2_b1Su + O+            0.00         O2_b1Su                O2_b1Su:0, O+:0     O2_b1Su, O+
+       445nothing O2_b1Su + O2+ -> O2_b1Su + O2+            0.00         O2_b1Su               O2_b1Su:0, O2+:0    O2_b1Su, O2+
+       446nothing O2_b1Su + O3+ -> O2_b1Su + O3+            0.00         O2_b1Su               O2_b1Su:0, O3+:0    O2_b1Su, O3+
+       447nothing O2_b1Su + O4+ -> O2_b1Su + O4+            0.00         O2_b1Su               O4+:0, O2_b1Su:0    O2_b1Su, O4+
+       448nothing O2_b1Su + Ar+ -> O2_b1Su + Ar+            0.00         O2_b1Su               O2_b1Su:0, Ar+:0    O2_b1Su, Ar+
+       449nothing            O3 + O+  -> O3 + O+            0.00              O3                     O+:0, O3:0          O3, O+
+       450nothing           O3 + O2+ -> O3 + O2+            0.00              O3                    O3:0, O2+:0         O3, O2+
+       451nothing           O3 + O3+ -> O3 + O3+            0.00              O3                    O3:0, O3+:0         O3, O3+
+       452nothing           O3 + O4+ -> O3 + O4+            0.00              O3                    O4+:0, O3:0         O3, O4+
+       453nothing           O3 + Ar+ -> O3 + Ar+            0.00              O3                    O3:0, Ar+:0         O3, Ar+
+       454nothing        O3_v + O+  -> O3_v + O+            0.00            O3_v                   O3_v:0, O+:0        O3_v, O+
+       455nothing       O3_v + O2+ -> O3_v + O2+            0.00            O3_v                  O3_v:0, O2+:0       O3_v, O2+
+       456nothing       O3_v + O3+ -> O3_v + O3+            0.00            O3_v                  O3_v:0, O3+:0       O3_v, O3+
+       457nothing       O3_v + O4+ -> O3_v + O4+            0.00            O3_v                  O3_v:0, O4+:0       O3_v, O4+
+       458nothing       O3_v + Ar+ -> O3_v + Ar+            0.00            O3_v                  O3_v:0, Ar+:0       O3_v, Ar+
+       459nothing            O4 + O+  -> O4 + O+            0.00              O4                     O+:0, O4:0          O4, O+
+       460nothing           O4 + O2+ -> O4 + O2+            0.00              O4                    O4:0, O2+:0         O4, O2+
+       461nothing           O4 + O3+ -> O4 + O3+            0.00              O4                    O4:0, O3+:0         O4, O3+
+       462nothing           O4 + O4+ -> O4 + O4+            0.00              O4                    O4+:0, O4:0         O4, O4+
+       463nothing           O4 + Ar+ -> O4 + Ar+            0.00              O4                    O4:0, Ar+:0         O4, Ar+
+       464nothing            Ar + O+  -> Ar + O+            0.00              Ar                     O+:0, Ar:0          Ar, O+
+       465nothing           Ar + O2+ -> Ar + O2+            0.00              Ar                    Ar:0, O2+:0         Ar, O2+
+       466nothing           Ar + O3+ -> Ar + O3+            0.00              Ar                    Ar:0, O3+:0         Ar, O3+
+       467nothing           Ar + O4+ -> Ar + O4+            0.00              Ar                    O4+:0, Ar:0         Ar, O4+
+       468nothing           Ar + Ar+ -> Ar + Ar+            0.00              Ar                    Ar:0, Ar+:0         Ar, Ar+
+       469nothing        Ar_m + O+  -> Ar_m + O+            0.00            Ar_m                   Ar_m:0, O+:0        Ar_m, O+
+       470nothing       Ar_m + O2+ -> Ar_m + O2+            0.00            Ar_m                  Ar_m:0, O2+:0       Ar_m, O2+
+       471nothing       Ar_m + O3+ -> Ar_m + O3+            0.00            Ar_m                  Ar_m:0, O3+:0       Ar_m, O3+
+       472nothing       Ar_m + O4+ -> Ar_m + O4+            0.00            Ar_m                  Ar_m:0, O4+:0       Ar_m, O4+
+       473nothing       Ar_m + Ar+ -> Ar_m + Ar+            0.00            Ar_m                  Ar_m:0, Ar+:0       Ar_m, Ar+
+       474nothing        Ar_r + O+  -> Ar_m + O+            0.00            Ar_r          Ar_m:1, O+:0, Ar_r:-1        Ar_r, O+
+       475nothing       Ar_r + O2+ -> Ar_m + O2+            0.00            Ar_r         Ar_m:1, Ar_r:-1, O2+:0       Ar_r, O2+
+       476nothing       Ar_r + O3+ -> Ar_m + O3+            0.00            Ar_r         Ar_m:1, Ar_r:-1, O3+:0       Ar_r, O3+
+       477nothing       Ar_r + O4+ -> Ar_m + O4+            0.00            Ar_r         Ar_m:1, O4+:0, Ar_r:-1       Ar_r, O4+
+       478nothing       Ar_r + Ar+ -> Ar_m + Ar+            0.00            Ar_r         Ar_m:1, Ar_r:-1, Ar+:0       Ar_r, Ar+
+       479nothing      Ar_4p + O+  -> Ar_4p + O+            0.00           Ar_4p                  O+:0, Ar_4p:0       Ar_4p, O+
+       480nothing     Ar_4p + O2+ -> Ar_4p + O2+            0.00           Ar_4p                 Ar_4p:0, O2+:0      Ar_4p, O2+
+       481nothing     Ar_4p + O3+ -> Ar_4p + O3+            0.00           Ar_4p                 Ar_4p:0, O3+:0      Ar_4p, O3+
+       482nothing     Ar_4p + O4+ -> Ar_4p + O4+            0.00           Ar_4p                 O4+:0, Ar_4p:0      Ar_4p, O4+
+       483nothing     Ar_4p + Ar+ -> Ar_4p + Ar+            0.00           Ar_4p                 Ar_4p:0, Ar+:0      Ar_4p, Ar+
+       484nothing             O+ + O+ -> O+ + O+            0.00         nothing                           O+:0          O+, O+
+       485nothing         O2+ + O2+ -> O2+ + O2+            0.00         nothing                          O2+:0        O2+, O2+
+       486nothing         O3+ + O3+ -> O3+ + O3+            0.00         nothing                          O3+:0        O3+, O3+
+       487nothing         O4+ + O4+ -> O4+ + O4+            0.00         nothing                          O4+:0        O4+, O4+
+       488nothing         Ar+ + Ar+ -> Ar+ + Ar+            0.00         nothing                          Ar+:0        Ar+, Ar+
+       489nothing           O+ + O2+ -> O+ + O2+            0.00         nothing                    O+:0, O2+:0         O+, O2+
+       490nothing           O+ + O3+ -> O+ + O3+            0.00         nothing                    O+:0, O3+:0         O+, O3+
+       491nothing           O+ + O4+ -> O+ + O4+            0.00         nothing                    O4+:0, O+:0         O+, O4+
+       492nothing           O+ + Ar+ -> O+ + Ar+            0.00         nothing                    O+:0, Ar+:0         O+, Ar+
+       493nothing         O2+ + O3+ -> O2+ + O3+            0.00         nothing                   O3+:0, O2+:0        O2+, O3+
+       494nothing         O2+ + O4+ -> O2+ + O4+            0.00         nothing                   O4+:0, O2+:0        O2+, O4+
+       495nothing         O2+ + Ar+ -> O2+ + Ar+            0.00         nothing                   Ar+:0, O2+:0        O2+, Ar+
+       496nothing         O3+ + O4+ -> O3+ + O4+            0.00         nothing                   O4+:0, O3+:0        O3+, O4+
+       497nothing         O3+ + Ar+ -> O3+ + Ar+            0.00         nothing                   O3+:0, Ar+:0        O3+, Ar+
+       498nothing         O4+ + Ar+ -> O4+ + Ar+            0.00         nothing                   O4+:0, Ar+:0        O4+, Ar+
+      499-Elastic               e + O2 -> e + O2            0.00              O2                      e:0, O2:0           e, O2
+      500-Elastic     e + O2_a1Ag -> e + O2_a1Ag            0.00         O2_a1Ag                 e:0, O2_a1Ag:0      e, O2_a1Ag
+      501-Elastic     e + O2_b1Su -> e + O2_b1Su            0.00         O2_b1Su                 O2_b1Su:0, e:0      e, O2_b1Su
+      502-Elastic               e + Ar -> e + Ar            0.00              Ar                      e:0, Ar:0           e, Ar
+      503-Recomb.                  O+ + O- -> 2O            0.00         nothing              O+:-1, O-:-1, O:2          O+, O-
+      504-Recomb.        O+ + O- + O2 -> 2O + O2            0.00              O2        O2:0, O+:-1, O-:-1, O:2      O+, O-, O2
+      505-Recomb.            O+ + O- + O2 -> 2O2            0.00              O2             O+:-1, O-:-1, O2:1      O+, O-, O2
+      506-Recomb.                 O- + O2+ -> 3O            0.00         nothing             O:3, O-:-1, O2+:-1         O-, O2+
+      507-Recomb.             O- + O2+ -> O + O2            0.00         nothing       O2+:-1, O2:1, O-:-1, O:1         O-, O2+
+      508-Recomb.             O- + Ar+ -> O + Ar            0.00         nothing       Ar:1, O-:-1, Ar+:-1, O:1         O-, Ar+
+      509-Recomb.             O- + O3+ -> O + O3            0.00         nothing       O3:1, O-:-1, O3+:-1, O:1         O-, O3+
+      510-Recomb.            O- + O4+ -> O + 2O2            0.00         nothing       O4+:-1, O2:2, O-:-1, O:1         O-, O4+
+      511-Recomb.            O- + O4+ -> O2 + O3            0.00         nothing      O4+:-1, O3:1, O-:-1, O2:1         O-, O4+
+      512-Recomb.       O2+ + O- + O2 -> O + 2O2            0.00              O2       O2+:-1, O2:1, O-:-1, O:1     O2+, O-, O2
+      513-Recomb.       O2+ + O- + O2 -> O2 + O3            0.00              O2      O2:0, O3:1, O-:-1, O2+:-1     O2+, O-, O2
+      514-Recomb.               O2+ + O2- -> 2O2            0.00         nothing           O2:2, O2-:-1, O2+:-1        O2+, O2-
+      515-Recomb.             O+ + O2- -> O + O2            0.00         nothing       O2:1, O+:-1, O2-:-1, O:1         O+, O2-
+      516-Recomb.       O+ + O2- + O2 -> O + 2O2            0.00              O2       O2:1, O+:-1, O2-:-1, O:1     O+, O2-, O2
+      517-Recomb.       O+ + O2- + O2 -> O2 + O3            0.00              O2      O+:-1, O3:1, O2-:-1, O2:0     O+, O2-, O2
+      518-Recomb.     O2 + O2- + O3+ -> 2O2 + O3            0.00              O2     O3:1, O3+:-1, O2-:-1, O2:1    O2, O2-, O3+
+      519-Recomb.          O2 + O2- + O4+ -> 4O2            0.00              O2           O4+:-1, O2-:-1, O2:3    O2, O2-, O4+
+      520-Recomb.               O3+ + O3- -> 2O3            0.00         nothing           O3:2, O3+:-1, O3-:-1        O3+, O3-
+      521-Recomb.               O4+ + O4- -> 4O2            0.00         nothing           O4+:-1, O4-:-1, O2:4        O4+, O4-
+      522-Recomb.          O2+ + O2- + O2 -> 3O2            0.00              O2           O2:2, O2-:-1, O2+:-1    O2+, O2-, O2
+      523-Recomb.     O2+ + O3- + O2 -> 2O2 + O3            0.00              O2     O2:1, O3:1, O3-:-1, O2+:-1    O2+, O3-, O2
+      524-Recomb.          O2+ + O4- + O2 -> 4O2            0.00              O2           O2:3, O4-:-1, O2+:-1    O2+, O4-, O2
+      525-Recomb.           O2+ + O2- -> O2 + 2O            0.00         nothing      O2+:-1, O:2, O2-:-1, O2:1        O2+, O2-
+      526-Recomb.           O2+ + O3- -> 2O + O3            0.00         nothing      O:2, O3:1, O3-:-1, O2+:-1        O2+, O3-
+      527-Recomb.           O2+ + O3- -> O2 + O3            0.00         nothing     O2:1, O3:1, O3-:-1, O2+:-1        O2+, O3-
+      528-Recomb.               O2+ + O4- -> 3O2            0.00         nothing           O2:3, O4-:-1, O2+:-1        O2+, O4-
+      529-Recomb.           O2- + O3+ -> O2 + O3            0.00         nothing     O3:1, O3+:-1, O2-:-1, O2:1        O2-, O3+
+      530-Recomb.          O2- + O4+ -> 2O + 2O2            0.00         nothing      O4+:-1, O2:2, O2-:-1, O:2        O2-, O4+
+      531-Recomb.               O2- + O4+ -> 3O2            0.00         nothing           O4+:-1, O2-:-1, O2:3        O2-, O4+
+      532-Recomb.          O3+ + O4- -> 2O2 + O3            0.00         nothing     O3:1, O3+:-1, O4-:-1, O2:2        O3+, O4-
+      533-Recomb.           O3- + O4+ -> O + 3O2            0.00         nothing      O4+:-1, O2:3, O3-:-1, O:1        O3-, O4+
+      534-Recomb.          O3- + O4+ -> 2O2 + O3            0.00         nothing     O4+:-1, O3:1, O3-:-1, O2:2        O3-, O4+
+      535-Recomb.             O+ + O3- -> O + O3            0.00         nothing       O+:-1, O3:1, O3-:-1, O:1         O+, O3-
+      536-Recomb.   O+ + O3- + O2 -> O + O2 + O3            0.00              O2 O2:0, O+:-1, O3:1, O3-:-1, O:1     O+, O3-, O2
+      537-Recomb.     O2 + O3+ + O4- -> 3O2 + O3            0.00              O2     O3:1, O3+:-1, O4-:-1, O2:2    O2, O3+, O4-
+      538-Recomb.     O2 + O3- + O4+ -> 3O2 + O3            0.00              O2     O4+:-1, O3:1, O3-:-1, O2:2    O2, O3-, O4+
+      539-Recomb.            O+ + O4- -> O + 2O2            0.00         nothing       O2:2, O+:-1, O4-:-1, O:1         O+, O4-
+      540-Recomb.       O+ + O4- + O2 -> O + 3O2            0.00              O2       O2:2, O+:-1, O4-:-1, O:1     O+, O4-, O2
+      541-Recomb.          O2 + O4+ + O4- -> 5O2            0.00              O2           O4+:-1, O4-:-1, O2:4    O2, O4+, O4-
+      542-Recomb.     O2 + O3+ + O3- -> O2 + 2O3            0.00              O2     O3:2, O3+:-1, O3-:-1, O2:0    O2, O3+, O3-
+      543-Recomb.   O- + O2 + O3+ -> O + O2 + O3            0.00              O2 O2:0, O3:1, O-:-1, O3+:-1, O:1     O-, O2, O3+
+      544-Recomb.       O- + O2 + O4+ -> O + 3O2            0.00              O2       O4+:-1, O2:2, O-:-1, O:1     O-, O2, O4+
+     545-Emission                     Ar_r -> Ar            0.00            Ar_r                  Ar_r:-1, Ar:1            Ar_r
+     546-Emission                    Ar_4p -> Ar            0.00           Ar_4p                 Ar:1, Ar_4p:-1           Ar_4p
+     547-Emission                  Ar_4p -> Ar_m            0.00           Ar_4p               Ar_m:1, Ar_4p:-1           Ar_4p
+     548-Emission                  Ar_4p -> Ar_r            0.00           Ar_4p               Ar_r:1, Ar_4p:-1           Ar_4p
+     549-Emission                   O_1s -> O_1d            0.00            O_1s                O_1s:-1, O_1d:1            O_1s
+     550-Emission                      O_5s -> O            0.00            O_5s                   O_5s:-1, O:1            O_5s
+     551-Emission                      O_5s -> O            0.00            O_5s                   O_5s:-1, O:1            O_5s
+     552-Emission                      O_3s -> O            0.00            O_3s                   O_3s:-1, O:1            O_3s
+     553-Emission                      O_3s -> O            0.00            O_3s                   O_3s:-1, O:1            O_3s
+     554-Emission                      O_3s -> O            0.00            O_3s                   O_3s:-1, O:1            O_3s
+     555-Emission                   O_5p -> O_5s            0.00            O_5p                O_5s:1, O_5p:-1            O_5p
+     556-Emission                   O_5p -> O_5s            0.00            O_5p                O_5s:1, O_5p:-1            O_5p
+     557-Emission                   O_5p -> O_5s            0.00            O_5p                O_5s:1, O_5p:-1            O_5p
+     558-Emission                   O_3p -> O_3s            0.00            O_3p                O_3s:1, O_3p:-1            O_3p
+     559-Emission                   O_3p -> O_3s            0.00            O_3p                O_3s:1, O_3p:-1            O_3p
+     560-Emission                   O_3p -> O_3s            0.00            O_3p                O_3s:1, O_3p:-1            O_3p
+    561-Diffusion                       2O -> O2            0.00               O                     O2:1, O:-2            O, O
+    562-Diffusion                      O_1d -> O            0.00            O_1d                   O_1d:-1, O:1            O_1d
+    563-Diffusion                      O_1s -> O            0.00            O_1s                   O_1s:-1, O:1            O_1s
+    564-Diffusion                      O_3s -> O            0.00            O_3s                   O_3s:-1, O:1            O_3s
+    565-Diffusion                      O_5s -> O            0.00            O_5s                   O_5s:-1, O:1            O_5s
+    566-Diffusion                      O_3p -> O            0.00            O_3p                   O:1, O_3p:-1            O_3p
+    567-Diffusion                      O_5p -> O            0.00            O_5p                   O_5p:-1, O:1            O_5p
+    568-Diffusion                  O2_a1Ag -> O2            0.00         O2_a1Ag               O2_a1Ag:-1, O2:1         O2_a1Ag
+    569-Diffusion                  O2_b1Su -> O2            0.00         O2_b1Su               O2_b1Su:-1, O2:1         O2_b1Su
+    570-Diffusion                     Ar_m -> Ar            0.00            Ar_m                  Ar_m:-1, Ar:1            Ar_m
+    571-Diffusion                     Ar_r -> Ar            0.00            Ar_r                  Ar_r:-1, Ar:1            Ar_r
+    572-Diffusion                    Ar_4p -> Ar            0.00           Ar_4p                 Ar:1, Ar_4p:-1           Ar_4p
+
+Running problem ...
+Solution state: Success
+Loading output data...
+Loading data done
+──────────────────────────────────────────────────────────────────────────────
+                                     Time                    Allocations      
+                            ───────────────────────   ────────────────────────
+     Tot / % measured:           7.58s / 100.0%            812MiB / 100.0%    
+
+Section             ncalls     time    %tot     avg     alloc    %tot      avg
+──────────────────────────────────────────────────────────────────────────────
+Problem execution        1    7.18s   94.8%   7.18s    623MiB   76.8%   623MiB
+Output dump              1    392ms    5.2%   392ms    188MiB   23.2%   188MiB
+──────────────────────────────────────────────────────────────────────────────

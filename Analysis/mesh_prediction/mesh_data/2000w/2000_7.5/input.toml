@@ -1,0 +1,274 @@
+################################################################################
+#                                                                              #
+# - Paper reference: Marcel Fiebrandt et al 2020 Plasma Sources Sci. Technol.  #
+#     29 045018                                                                #
+# - Title: "Determination of atomic oxygen state densities in a double         #
+#     inductively coupled plasma using optical emission and absorption         #
+#     spectroscopy and probe measurements"                                     #
+# - Link: https://doi.org/10.1088/1361-6595/ab7cbe                             #
+#                                                                              # 
+################################################################################
+[constants]
+T_gas = 800
+T_electrons = 1.5
+nO2 = 100000000000000.0
+nAr = 0
+ne = 1000000000000.0
+pAr = 0.0
+pO2 = 1.0
+mO = "16amu"
+mO2 = "32amu"
+mO3 = "48amu"
+mO4 = "64amu"
+mAr = "40amu"
+gamma_O = 0.1
+gamma_O_metastable = 1.0
+gamma_O2 = 0.007
+gamma_O3 = 0.0
+gamma_Ar = 1.0
+
+[system]
+reaction_file = "input.reactions"
+radius = 32.5e-3
+L = 100e-3
+P = 2000
+h_factor = "thorsteinsson"
+vsheath_solve_method = "flux_interpolation"
+t_end = 1.0
+dt_start = 1e-12
+total_pressure_mTorr = 7.5
+plasma_potential = 100
+T_e_min_eV = 1.0
+T_e_max_eV = 4.0
+
+[species.e]
+charge = -1
+mass = "me"
+solve_dens = true
+solve_temp = true
+T_eV = "T_electrons"
+density = "ne"
+
+[species.O2]
+charge = 0
+mass = "mO2"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+p = "pO2"
+gamma = "gamma_O2"
+
+[species."O2+"]
+charge = 1
+mass = "mO2"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = "nO2"
+
+[species.O2-]
+charge = -1
+mass = "mO2"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.O2_a1Ag]
+charge = 0
+mass = "mO2"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O2"
+
+[species.O2_b1Su]
+charge = 0
+mass = "mO2"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O2"
+
+[species.O]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O"
+
+[species."O+"]
+charge = 1
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.O-]
+charge = -1
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.O_1d]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O_metastable"
+
+[species.O_1s]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O_metastable"
+
+[species.O_3s]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O_metastable"
+
+[species.O_5s]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O_metastable"
+
+[species.O_3p]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O_metastable"
+
+[species.O_5p]
+charge = 0
+mass = "mO"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O_metastable"
+
+[species.O3]
+charge = 0
+mass = "mO3"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O3"
+
+[species.O3_v]
+charge = 0
+mass = "mO3"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_O3"
+
+[species."O3+"]
+charge = 1
+mass = "mO3"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.O3-]
+charge = -1
+mass = "mO3"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.O4]
+charge = 0
+mass = "mO4"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species."O4+"]
+charge = 1
+mass = "mO4"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.O4-]
+charge = -1
+mass = "mO4"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+
+[species.Ar]
+charge = 0
+mass = "mAr"
+solve_dens = false
+solve_temp = false
+T = "T_gas"
+p = "pAr"
+gamma = "gamma_Ar"
+
+[species."Ar+"]
+charge = 1
+mass = "mAr"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = "nAr"
+
+[species.Ar_m]
+charge = 0
+mass = "mAr"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_Ar"
+
+[species.Ar_r]
+charge = 0
+mass = "mAr"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_Ar"
+
+[species.Ar_4p]
+charge = 0
+mass = "mAr"
+solve_dens = true
+solve_temp = false
+T = "T_gas"
+density = 0
+gamma = "gamma_Ar"
