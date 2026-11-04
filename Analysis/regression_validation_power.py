@@ -53,7 +53,7 @@ df_new = pd.read_csv("power_analysed_data_100_2000.csv")
 x_new = df_new["Power (W)"].values
 
 # Load regression parameters
-df_reg = pd.read_csv("power_regression_results_initial.csv")
+df_reg = pd.read_csv("power_regression_results.csv")
 
 results = []
 

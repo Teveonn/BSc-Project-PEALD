@@ -53,7 +53,7 @@ df_new = pd.read_csv("pressure_analysed_data_2_750.csv")
 x_new = df_new["Pressure (mTorr)"].values
 
 # Load regression parameters
-df_reg = pd.read_csv("pressure_regression_results_initial.csv")
+df_reg = pd.read_csv("pressure_regression_results.csv")
 
 results = []
 
